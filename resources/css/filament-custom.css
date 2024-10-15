@@ -1,0 +1,23 @@
+.fi-ta-color .fi-ta-color-item {
+    outline: thin solid #c5c5c5;
+}
+
+.fi-ta-color .fi-ta-color-item.non-neutral-clr {
+    outline-offset: 2px;
+}
+
+.fi-ta-row {
+    --hover-bg-color: rgba(0, 0, 0, 0.09); /* Default value */
+    transition: 0.75s all ease !important;
+}
+
+.fi-ta-row:hover {
+    background-color: var(--hover-bg-color) !important;
+}
+
+.isAdmin .fi-ta-text-item-label {
+    color: rgb(16, 185, 129) !important;
+    font-weight: bold;
+    letter-spacing: 0.5px !important;
+}
+

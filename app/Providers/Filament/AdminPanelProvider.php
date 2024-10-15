@@ -51,14 +51,14 @@ class AdminPanelProvider extends PanelProvider
             ->profile()
             ->databaseNotifications()
             // ->passwordReset()
-            ->colors([
-                'danger' => Color::Rose,
-                'gray' => Color::Gray,
-                'info' => Color::Amber,
-                'primary' =>  Color::PrimaryLightMode,
-                'success' => Color::Emerald,
-                'warning' => Color::Orange,
-            ])
+            // ->colors([
+            //     'danger' => Color::Rose,
+            //     'gray' => Color::Gray,
+            //     'info' => Color::Amber,
+            //     'primary' =>  Color::PrimaryLightMode,
+            //     'success' => Color::Emerald,
+            //     'warning' => Color::Orange,
+            // ])
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             // ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
             ->pages([
